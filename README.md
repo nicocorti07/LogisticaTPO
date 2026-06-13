@@ -57,29 +57,6 @@
 
 ---
 
-## Cómo ejecutar el proyecto
-
-### Requisitos
-- Java 17 o superior
-- No requiere dependencias externas
-
-### Compilación y ejecución
-
-```bash
-# Compilar
-javac -d out -sourcepath src/main/java src/main/java/logistica/menu/Main.java
-
-# Ejecutar
-java -cp out logistica.menu.Main
-```
-
-### Con IntelliJ IDEA o Eclipse
-1. Importar el proyecto como proyecto Java.
-2. Marcar `src/main/java` como Sources Root.
-3. Ejecutar la clase `logistica.menu.Main`.
-
----
-
 ## Estructura del proyecto
 
 ```
@@ -103,11 +80,3 @@ LogisticaTPO/
 │                   └── Main.java                   ← Menú interactivo de prueba
 └── README.md
 ```
-
----
-
-## Link del repositorio
-
-> ⚠️ Completar con el link una vez creado el repositorio en GitHub.  
-> Ejemplo: `https://github.com/usuario/LogisticaTPO`  
-> Agregar a `mangelaleon` como colaboradora.
